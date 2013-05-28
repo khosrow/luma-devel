@@ -1134,7 +1134,7 @@ Do you still want to save?</source>
     </message>
     <message>
         <location filename="luma/base/gui/design/ServerDialogDesign.py" line="486"/>
-        <source>Authentification</source>
+        <source>Authentication</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

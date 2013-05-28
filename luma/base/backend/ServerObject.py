@@ -239,7 +239,7 @@ class ServerObject(object):
         finalString.append(unicode(self.bindPassword))
         finalString.append(unicode("\nEncryption method: "))
         finalString.append(unicode(self.encryptionMethod))
-        finalString.append(unicode("\nAuthentification method: "))
+        finalString.append(unicode("\nAuthentication method: "))
         finalString.append(unicode(self.authMethod))
         finalString.append(unicode("\nUse Client certificate: "))
         finalString.append(unicode(self.useCertificate))

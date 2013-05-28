@@ -483,7 +483,7 @@ class Ui_ServerDialogDesign(object):
         self.mechanismBox.setItemText(6, QtGui.QApplication.translate("ServerDialogDesign", "SASL Plain", None, QtGui.QApplication.UnicodeUTF8))
         self.bindAsLabel.setText(QtGui.QApplication.translate("ServerDialogDesign", "Bind as:", None, QtGui.QApplication.UnicodeUTF8))
         self.passwordLabel.setText(QtGui.QApplication.translate("ServerDialogDesign", "Password:", None, QtGui.QApplication.UnicodeUTF8))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), QtGui.QApplication.translate("ServerDialogDesign", "Authentification", None, QtGui.QApplication.UnicodeUTF8))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), QtGui.QApplication.translate("ServerDialogDesign", "Authentication", None, QtGui.QApplication.UnicodeUTF8))
         self.securityOptGroup.setTitle(QtGui.QApplication.translate("ServerDialogDesign", "Security options", None, QtGui.QApplication.UnicodeUTF8))
         self.encryptionBox.setItemText(0, QtGui.QApplication.translate("ServerDialogDesign", "Unencrypted connection", None, QtGui.QApplication.UnicodeUTF8))
         self.encryptionBox.setItemText(1, QtGui.QApplication.translate("ServerDialogDesign", "Transport Layer Security (TLS)", None, QtGui.QApplication.UnicodeUTF8))
